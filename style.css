@@ -1,0 +1,103 @@
+.submit{
+  border-radius: 12px;
+  }
+  body{
+    background-color: rgb(231, 224, 224);
+    color: #181616;
+  
+  }
+  .todo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+  
+    
+  }
+  
+  
+  .todo h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .todo p {
+    margin: 5px 0;
+  }
+  
+  .todo .details {
+    /* display: flex; */
+    align-items: center;
+  }
+  
+  .todo .details p {
+    margin-left: 10px;
+  }
+  
+  
+  #filterDropdown {
+    /* position: absolute; */
+    top: 20px;
+    right: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #c4c1c1;
+    border: 1px solid #ccc;
+    /* z-index: 19999; Increase the z-index value */
+  }
+  
+  #todos {
+    margin-bottom: 50px;
+  }
+  .dropdown {
+    margin-top: 10%;
+    position: relative;
+  }
+  
+  .dropdown .hover-options {
+    display: all;
+    /* position: absolute; */
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .hover-options {
+    display: block;
+  }
+  
+  #header{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  #addTodoForm{
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: bolder;
+  }
+  
+  button{
+    border-radius: 10px;
+    color: rgb(237, 237, 245);
+    background-color: rgb(0, 0, 0);
+    border-style: hidden;
+    padding: 5px 25px;
+  }
+  
+  .todo.completed {
+    background-color: #c4ffc4;
+  }
+  
+  .todo.incomplete {
+    background-color: #fff7b5;
+  }
+  
